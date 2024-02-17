@@ -11,7 +11,7 @@ public class MongoDBConfig {
 
   @Bean
   public MongoDatabaseFactory mongoConfigure() {
-    return new SimpleMongoClientDatabaseFactory("connectiopn-string-goes");
+    return new SimpleMongoClientDatabaseFactory("string-connection-here!!!");
   }
 
   @Bean
